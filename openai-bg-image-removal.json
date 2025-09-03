@@ -10,5 +10,5 @@
       "description": "Any additional response from the convesation other than the image that was created"
     }
   },
-  "required": ["imageURL", "response"]
+  "required": ["image", "response"]
 }
