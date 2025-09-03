@@ -1,16 +1,22 @@
 {
-    "name" : "bg_remover"
+  "name": "bg_remover_threadcycle_v1",
+  "strict": true,
+  "schema": {
     "type": "object",
-      "properties": {
-          "image": {
-                "type": "string",
-                      "description": "The image file of the generated image"
-                          },
-                              "response": {
-                                    "type": "string",
-                                          "description": "Any additional response from the convesation other than the image that was created"
-                                              }
-                                                },
-                                                  "required": ["image", "response"]
-                                                  }
+    "properties": {
+      "image": {
+        "type": "string",
+        "description": "The image file of the generated image"
+      },
+      "response": {
+        "type": "string",
+        "description": "Any additional response from the conversation other than the image that was created"
+      }
+    },
+    "required": [
+      "image",
+      "response"
+    ],
+    "additionalProperties": false
+  }
 }
