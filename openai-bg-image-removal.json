@@ -1,13 +1,13 @@
 {
   "type": "object",
   "properties": {
-    "imageURL": {
+    "image": {
       "type": "string",
-      "description": "A publicly accesble URL to the image generated so that it can be retrieved by another system"
+      "description": "the image file of the generated image"
     },
-    "message": {
-      "type": "message",
-      "description": "Any additional response other than the URL"
+    "response": {
+      "type": "string",
+      "description": "Any additional response from the convesation other than the image that was created"
     }
   },
   "required": ["imageURL", "message"]
