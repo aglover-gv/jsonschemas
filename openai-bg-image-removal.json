@@ -1,14 +1,16 @@
 {
-  "type": "object",
-  "properties": {
-    "image": {
-      "type": "string",
-      "description": "The image file of the generated image"
-    },
-    "response": {
-      "type": "string",
-      "description": "Any additional response from the convesation other than the image that was created"
-    }
-  },
-  "required": ["image", "response"]
+    "name" : "bg_remover"
+    "type": "object",
+      "properties": {
+          "image": {
+                "type": "string",
+                      "description": "The image file of the generated image"
+                          },
+                              "response": {
+                                    "type": "string",
+                                          "description": "Any additional response from the convesation other than the image that was created"
+                                              }
+                                                },
+                                                  "required": ["image", "response"]
+                                                  }
 }
