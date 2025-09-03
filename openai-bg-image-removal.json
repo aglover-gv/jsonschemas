@@ -3,7 +3,7 @@
   "properties": {
     "image": {
       "type": "string",
-      "description": "the image file of the generated image"
+      "description": "The image file of the generated image"
     },
     "response": {
       "type": "string",
