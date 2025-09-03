@@ -1,5 +1,14 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "openai-bg-image-removal.json",
-  "imageURL": "A temporary image URL to retrieve a generaged image from"
+  "type": "object",
+  "properties": {
+    "imageURL": {
+      "type": "string",
+      "description": "A publicly accesble URL to the image generated so that it can be retrieved by another system"
+    },
+    "message": {
+      "type": "message",
+      "description": "Any additional response other than the URL"
+    }
+  },
+  "required": ["imageURL", "message"]
 }
